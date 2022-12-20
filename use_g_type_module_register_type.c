@@ -1,5 +1,5 @@
 /**
- *	gcc use_g_type_register_dynamic.c -o main `pkg-config --cflags --libs gobject-2.0`
+ *	gcc use_g_type_module_register_type.c -o main `pkg-config --cflags --libs gobject-2.0`
  */
 #include <gmodule.h>
 #include <glib-object.h>
